@@ -10,7 +10,4 @@ const pool = createPool({
   connectTimeout: 30000,
 });
 
-const result = pool.query("SELECT * FROM todoitems");
-console.log(result);
-
 module.exports = pool;
