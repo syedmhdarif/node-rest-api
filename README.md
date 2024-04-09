@@ -25,7 +25,7 @@ You may also clone the application from this repository or get it from here: htt
 
 ## API and its CRUD
 
-1. normal API : http://localhost:3306/to-do/v1/items
+1. Full API : http://localhost:3306/to-do/v1/items
 2. router.get("/items", getItem);
 3. router.get("/items/:id", getItemByIds);
 4. router.get("/items/:title", getItemByTitles);
