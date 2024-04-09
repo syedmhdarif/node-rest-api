@@ -13,7 +13,7 @@ An application to add a new task to be perform. This application use React Nativ
 ## Installation
 ### Database/server
 1. cd To-Do-app && cd backend
-2. npm start
+2. npm install && npm start
 
 ### Frontend - ToDoApp 
 1. npm install , cd ios and pod install the application
