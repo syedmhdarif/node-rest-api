@@ -8,7 +8,7 @@ An application to add a new task to be perform. This application use React Nativ
 ## Table of Contents
 
 - [Installation](#installation)
-- [API](#API)
+- [API and Its CRUD](#APIanditsCRUD)
 - [Design](#design)
 
 ## Installation
