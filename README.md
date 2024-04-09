@@ -1,7 +1,8 @@
 ## Title and Description
 
-# ToDoApp
 Please find the frontend application part from this repository: https://github.com/syedmhdarif/ToDoApp
+
+# ToDoApp
 An application to add a new task to be perform. This application use React Native as a frontend framework, Express js and node js for the backend RESTful API, and MySql for the database.
 
 ## Table of Contents
