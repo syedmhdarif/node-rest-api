@@ -12,12 +12,12 @@ An application to add a new task to be perform. This application use React Nativ
 
 ## API and its CRUD
 
-normal API : http://localhost:3306/to-do/v1/items \n
-router.get("/items", getItem);
-router.get("/items/:id", getItemByIds);
-router.get("/items/:title", getItemByTitles);
-router.post("/items", createItems);
-router.put("/items/:id", updateItemByIds);
-router.delete("/items/:id", deleteItems);
+1. normal API : http://localhost:3306/to-do/v1/items
+2. router.get("/items", getItem);
+3. router.get("/items/:id", getItemByIds);
+4. router.get("/items/:title", getItemByTitles);
+5. router.post("/items", createItems);
+6. router.put("/items/:id", updateItemByIds);
+7. router.delete("/items/:id", deleteItems);
 
 
