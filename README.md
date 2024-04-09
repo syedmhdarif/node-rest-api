@@ -24,7 +24,7 @@ You may also clone the application from this repository or get it from here: htt
 3. Test the application
 
 ## API 
-
+Show also the implementation of CRUD
 1. Full API : http://localhost:3306/to-do/v1/items
 2. router.get("/items", getItem);
 3. router.get("/items/:id", getItemByIds);
