@@ -8,7 +8,7 @@ An application to add a new task to be perform. This application use React Nativ
 ## Table of Contents
 
 - [Installation](#installation)
-- [API and Its CRUD](#APIanditsCRUD)
+- [API and Its CRUD](#API)
 - [Design](#design)
 
 ## Installation
@@ -23,7 +23,7 @@ You may also clone the application from this repository or get it from here: htt
 2. npx react-native run-ios (for ios) || npx react-native run-android (for android)
 3. Test the application
 
-## API and its CRUD
+## API 
 
 1. Full API : http://localhost:3306/to-do/v1/items
 2. router.get("/items", getItem);
