@@ -10,6 +10,16 @@ An application to add a new task to be perform. This application use React Nativ
 - [API](#API)
 - [Design](#design)
 
+## Installation
+### Database/server
+1. cd To-Do-app && cd backend
+2. npm start
+
+### Frontend - ToDoApp 
+1. npm install , cd ios and pod install the application
+2. npx react-native run-ios (for ios) || npx react-native run-android (for android)
+3. Test the application
+
 ## API and its CRUD
 
 1. normal API : http://localhost:3306/to-do/v1/items
