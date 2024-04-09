@@ -22,6 +22,7 @@ An application to add a new task to be perform. This application use React Nativ
 
 ## Design
 
-<img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot1.png" alt="Home page" width="400" height="800">
+<img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot1.png" alt="Home page" width="380" height="800">
+<img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot2.png" alt="Add New Task" width="380" height="800">
+<img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot3.png" alt="Edit/delete/update existing task" width="380" height="800">
 
-![image_url](https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot1.png)
