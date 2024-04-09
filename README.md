@@ -20,4 +20,6 @@ An application to add a new task to be perform. This application use React Nativ
 6. router.put("/items/:id", updateItemByIds);
 7. router.delete("/items/:id", deleteItems);
 
+## Design
 
+![Image Alt Text](image_url)
