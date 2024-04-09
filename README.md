@@ -1,4 +1,4 @@
-Title and Description
+## Title and Description
 
 # ToDoApp
 
@@ -12,7 +12,7 @@ An application to add a new task to be perform. This application use React Nativ
 
 ## API and its CRUD
 
-http://localhost:3306/to-do/v1/items
+normal API : http://localhost:3306/to-do/v1/items \n
 router.get("/items", getItem);
 router.get("/items/:id", getItemByIds);
 router.get("/items/:title", getItemByTitles);
