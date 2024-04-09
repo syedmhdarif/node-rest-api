@@ -22,4 +22,6 @@ An application to add a new task to be perform. This application use React Nativ
 
 ## Design
 
+<img src="https://raw.githubusercontent.com/username/repository/main/example.png" alt="Home page" width="400" height="800">
+
 ![image_url](https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot1.png)
