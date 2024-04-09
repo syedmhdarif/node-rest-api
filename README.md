@@ -11,11 +11,13 @@ An application to add a new task to be perform. This application use React Nativ
 - [Design](#design)
 
 ## Installation
+
 ### Database/server
 1. cd To-Do-app && cd backend
 2. npm install && npm start
 
 ### Frontend - ToDoApp 
+You may clone the application from this repository or get it from here: https://github.com/syedmhdarif/ToDoApp
 1. npm install , cd ios and pod install the application
 2. npx react-native run-ios (for ios) || npx react-native run-android (for android)
 3. Test the application
