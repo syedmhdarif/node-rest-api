@@ -1,6 +1,6 @@
 FROM node:21.7.1
 
-WORKDIR /Users/syedmhdarif/node-rest-api/To-do-app/backend
+WORKDIR /Users/syedmhdarif/node-rest-api/backend
 COPY package.json .
 RUN npm install
 COPY . .
@@ -10,7 +10,7 @@ CMD npm start
 # FROM node:14
 
 # # Set working directory in the container
-# WORKDIR /Users/syedmhdarif/node-rest-api/To-do-app/backend
+# WORKDIR /Users/syedmhdarif/node-rest-api/backend
 
 # # Copy package.json and package-lock.json to the working directory
 # COPY package*.json ./

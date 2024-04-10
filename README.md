@@ -44,17 +44,17 @@ Show also the implementation of CRUD
 ## Design
 
 <div style="display: flex; flex-direction: row;">
-  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot1.png" alt="Home page" width="300" height="700">
-  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot2.png" alt="Add New Task" width="300" height="700">
-  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot3.png" alt="Edit/delete/update existing task" width="300" height="700">
-  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot4.png" alt="Edit/delete/update existing task" width="300" height="700">
+  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/backend/assets/screenshot1.png" alt="Home page" width="300" height="700">
+  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/backend/assets/screenshot2.png" alt="Add New Task" width="300" height="700">
+  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/backend/assets/screenshot3.png" alt="Edit/delete/update existing task" width="300" height="700">
+  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/backend/assets/screenshot4.png" alt="Edit/delete/update existing task" width="300" height="700">
 </div>
 
 ## Design
 
 <div style="display: flex; flex-direction: row;">
-  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot1.png" alt="Home page" width="300" height="700">
-  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot2.png" alt="Add New Task" width="300" height="700">
-  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot3.png" alt="Edit/delete/update existing task" width="300" height="700">
-  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/To-do-app/backend/assets/screenshot4.png" alt="Edit/delete/update existing task" width="300" height="700">
+  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/backend/assets/screenshot1.png" alt="Home page" width="300" height="700">
+  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/backend/assets/screenshot2.png" alt="Add New Task" width="300" height="700">
+  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/backend/assets/screenshot3.png" alt="Edit/delete/update existing task" width="300" height="700">
+  <img src="https://github.com/syedmhdarif/node-rest-api/blob/main/backend/assets/screenshot4.png" alt="Edit/delete/update existing task" width="300" height="700">
 </div>

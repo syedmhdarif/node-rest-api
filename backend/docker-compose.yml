@@ -1,12 +1,12 @@
 version: "3.8"
 
 services:
-  db.config:
+  db:
     image: mysql:8.3.0
     restart: unless-stopped
     env_file: ./.env
     environment:
-      - MYSQL_HOST=127.0.0.1
+      - MYSQL_HOST=localhost
       # - MYSQL_USER=root
       - MYSQL_PASSWORD=123456
       - MYSQL_ROOT_PASSWORD=123456
@@ -17,22 +17,24 @@ services:
     ports:
       - "3306:3306"
     # volumes:
-    #   - db.config:/opt/homebrew/bin/mysql
-  app:
+    #   - /opt/homebrew/bin/mysql
+  server:
     depends_on:
-      - db.config
+      - db
     build:
       context: .
-      dockerfile: /Users/syedmhdarif/node-rest-api/To-do-app/backend/DockerFile
+      dockerfile: /Users/syedmhdarif/node-rest-api/backend/Dockerfile
     restart: unless-stopped
     env_file: ./.env
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_HOST=127.0.0.1
-      - MYSQL_USER=root
+      - MYSQL_HOST=localhost
+      # - MYSQL_USER=root
       - MYSQL_ROOT_PASSWORD=123456
       - MYSQL_DATABASE=todoitems
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
 
 volumes:
   db:
