@@ -1,25 +1,23 @@
-import express, { json, response } from "express";
+require("dotenv").config();
+const express = require("express");
+const bodyParser = require("body-parser");
+const cors = require("cors");
+const itemsRouter = require("./controllers/routes");
+
+const app = express();
+
+const corsOptions = { origin: "http://localhost:3306/" };
+app.use(cors(corsOptions));
+
+//parse requests with JSON payloads.
+app.use(bodyParser.json());
+
+//start path with /api
+app.use("/to-do/v1", itemsRouter);
 
 //set up the port automatically by allowing the API to be deployed to a cloud platform like AWS or Azure
-//default will use 3000
-const PORT = process.env.PORT || 3000;
-
-//set up Express to create an app and configure it to parse requests with JSON payloads.
-const app = express();
-app.use(json());
-
+//set PORT default will use 3000
+const PORT = process.env.MYSQL_PORT || process.env.APP_PORT;
 app.listen(PORT, () => {
-  console.log("Server Listening on PORT:", PORT);
-});
-
-//define a status endpoint
-// app.get("/status", (request, response));
-
-app.get("/users", (request, response) => {
-  const users = [
-    { id: 1, name: "John sina" },
-    { id: 2, name: "Jane Smith" },
-  ];
-
-  response.json(users);
+  console.log(`Server is running on port ${PORT}`);
 });
