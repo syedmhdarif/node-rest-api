@@ -13,7 +13,7 @@ An application to add a new task to be perform. This application use React Nativ
 
 ## Installation
 
-### Database/server
+### server.js
 ```bash
 #Navigate to the project file
 cd To-Do-app && cd backend
@@ -23,6 +23,46 @@ npm install
 
 #run the project
 npm start
+```
+
+### mysql
+```bash
+#install mysql
+npm install mysql
+
+#login to mysql
+mysql -p
+123456
+
+#paste the database code
+CREATE DATABASE todoitems;
+USE todoitems;
+
+CREATE TABLE todoitems (
+  id integer PRIMARY KEY AUTO_INCREMENT,
+  title VARCHAR(255) NOT NULL,
+  description VARCHAR(255) NOT NULL,
+  status TINYINT(1) DEFAULT 0
+);
+
+INSERT INTO todoitems (id, title, description, status)
+VALUES 
+(1, 'Task 1', 'A note about something', false),
+(2, 'Task 2', 'A note about something else', false);
+
+```
+
+### Docker
+```bash
+#Navigate to the project file
+cd To-Do-app && cd backend
+
+#build docker
+docker-compose build
+
+#run the docker
+docker-compose up
+
 ```
 
 ### Frontend - ToDoApp 
